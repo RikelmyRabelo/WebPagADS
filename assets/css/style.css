@@ -1,0 +1,53 @@
+/* Header e Navegação */
+.header-hidden {
+    transform: translateY(-100%);
+}
+
+.nav-active {
+    color: #0d9488 !important; 
+    font-weight: 600 !important;
+}
+.nav-active:hover {
+    color: #0d9488 !important; 
+}
+
+
+/* css do plano de ação */
+.chart-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+
+@media (min-width: 768px) {
+    .chart-container {
+        height: 350px;
+    }
+}
+
+.timeline-tab-active {
+    background-color: #0d9488;
+    color: white;
+}
+
+/* css p abas de status */
+.status-tab-active {
+    background-color: #0d9488; 
+    color: #ffffff;             
+    font-weight: 600;
+}
+
+/* Estilos para a animação de fade-in */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}

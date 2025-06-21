@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria - Plano de Ação CMT XV</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        html {
+            scroll-padding-top: 80px;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .nav-active {
+            color: #0d9488 !important; 
+            font-weight: 600 !important;
+        }
+        .nav-active:hover {
+            color: #0d9488 !important; 
+        }
+        header {
+            transition: transform 0.3s ease-in-out;
+        }
+        .header-hidden {
+            transform: translateY(-100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/" class="flex flex-col sm:flex-row sm:items-center space-x-0 sm:space-x-4">
+                <div class="flex items-center space-x-2">
+                    <img src="assets/Images/logoMilitar.jpg" alt="Logo do Colégio Militar Tiradentes" class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
+                    <img src="assets/Images/logoUema.jpg" alt="Logo da UEMA e UemaNet" class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
+                </div>
+                <div class="mt-2 sm:mt-0">
+                    <h1 class="text-base sm:text-2xl font-bold text-teal-700 text-center sm:text-left">
+                        Projeto CMT XV - UEMA
+                    </h1>
+                </div>
+            </a>
+            <div class="flex items-center space-x-4">
+                <div class="hidden md:flex space-x-8">
+                    <a href="/#overview" class="text-gray-600 hover:text-teal-600">Visão Geral</a>
+                    <a href="/#diagnosis" class="text-gray-600 hover:text-teal-600">Diagnóstico</a>
+                    <a href="/#action-plan" class="text-gray-600 hover:text-teal-600">Plano de Ação</a>
+                    <a href="/#impact" class="text-gray-600 hover:text-teal-600">Impacto Esperado</a>
+                    <a href="/images.html" class="text-gray-600 hover:text-teal-600">Projetos</a>
+                    <a href="/#contact-form" class="text-gray-600 hover:text-teal-600">Contato</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-teal-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="/#overview" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Visão Geral</a>
+            <a href="/#diagnosis" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Diagnóstico</a>
+            <a href="/#action-plan" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Plano de Ação</a>
+            <a href="/#impact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Impacto Esperado</a>
+            <a href="/images.html" class="block py-2 px-4 text-sm bg-teal-50 text-teal-700">Projetos</a>
+            <a href="/#contact-form" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Contato</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="gallery-single" class="py-12 md:py-20">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="text-center mb-8 md:mb-12">
+                    <h2 class="text-2xl md:text-3xl font-bold text-gray-800">Mural do Respeito</h2>
+                    <p class="text-base md:text-lg text-gray-600 mt-2">Imagens da implementação do projeto no Colégio Militar Tiradentes XV.</p>
+                </div>
+                <div class="relative max-w-4xl mx-auto overflow-hidden rounded-lg shadow-xl bg-white">
+                    <div id="carousel-inner" class="flex transition-transform duration-500 ease-in-out">
+                        <div class="carousel-slide flex-shrink-0 w-full">
+                            <img src="assets/Images/foto1.jpg" alt="Estudantes das outras turmas observando o mural desenvolvido." class="w-full h-auto object-cover block cursor-pointer" loading="lazy" width="1080" height="720">
+                            <p class="text-center text-base text-gray-700 py-4 px-2">Estudantes das outras turmas observando o mural desenvolvido.</p>
+                        </div>
+                        <div class="carousel-slide flex-shrink-0 w-full">
+                            <img src="assets/Images/foto2.jpg" alt="Mural desenvolvido posicionado no corredor da comunidade escolar." class="w-full h-auto object-cover block cursor-pointer" loading="lazy" width="1080" height="720">
+                            <p class="text-center text-base text-gray-700 py-4 px-2">Mural desenvolvido posicionado no corredor da comunidade escolar.</p>
+                        </div>
+                        <div class="carousel-slide flex-shrink-0 w-full">
+                            <img src="assets/Images/foto3.jpg" alt="Estudantes com TEA e estudantes do curso de ADS engajados com o mural." class="w-full h-auto object-cover block cursor-pointer" loading="lazy" width="1080" height="720">
+                            <p class="text-center text-base text-gray-700 py-4 px-2">Estudantes com TEA e estudantes do curso de ADS engajados com o mural.</p>
+                        </div>
+                        <div class="carousel-slide flex-shrink-0 w-full">
+                            <img src="assets/Images/foto4.jpg" alt="Estudantes escrevendo suas mensagens para o mural do respeito." class="w-full h-auto object-cover block cursor-pointer" loading="lazy" width="1080" height="720">
+                            <p class="text-center text-base text-gray-700 py-4 px-2">Estudantes escrevendo suas mensagens para o mural do respeito.</p>
+                        </div>
+                    </div>
+                    <button id="prev-button" aria-label="Slide anterior" class="absolute top-1/2 left-3 sm:left-4 transform -translate-y-1/2 bg-white/60 hover:bg-white focus:bg-white focus:outline-none transition-colors p-2 sm:p-3 rounded-full shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+                    </button>
+                    <button id="next-button" aria-label="Próximo slide" class="absolute top-1/2 right-3 sm:right-4 transform -translate-y-1/2 bg-white/60 hover:bg-white focus:bg-white focus:outline-none transition-colors p-2 sm:p-3 rounded-full shadow-lg">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+                    </button>
+                </div>
+                <div class="text-center mt-8">
+                    <a href="/images.html" class="inline-block bg-teal-600 hover:bg-teal-700 text-white font-bold py-2 px-6 rounded-lg transition duration-200 ease-in-out">
+                        &larr; Voltar para Todos os Projetos
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="fullscreen-modal" class="fixed inset-0 bg-black bg-opacity-90 z-[100] hidden items-center justify-center">
+        <img id="fullscreen-image" src="" alt="Imagem em tela cheia" class="max-w-[95vw] max-h-[95vh] object-contain">
+        
+        <button id="close-fullscreen" aria-label="Fechar tela cheia" class="absolute top-2 right-4 text-white text-5xl font-bold hover:text-gray-300 transition-colors">&times;</button>
+        
+        <button id="prev-fullscreen" aria-label="Imagem anterior" class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-3 rounded-full transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" /></svg>
+        </button>
+        
+        <button id="next-fullscreen" aria-label="Próxima imagem" class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/20 hover:bg-white/40 text-white p-3 rounded-full transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" /></svg>
+        </button>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-6 md:py-8 border-t border-gray-700">
+        <div class="container mx-auto px-4 md:px-6 text-center">
+            <p class="text-sm md:text-base">© 2025 - Grupo de Análise e Desenvolvimento de Sistemas. Todos os direitos reservados.</p>
+            <p class="text-xs md:text-sm text-gray-400 mt-1 md:mt-2">Guilherme Moreira Santos, José Ribamar Andrade Santos Júnior, Marina de Jesus Lima Muniz e Rikelmy Rabelo Freitas.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/gallery.js"></script> 
+</body>
+</html>

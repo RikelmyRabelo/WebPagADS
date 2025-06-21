@@ -1,0 +1,125 @@
+{
+    "proposal1": {
+        "title": "Criação e Manutenção de Canais Permanentes de Escuta e Diálogo",
+        "objective": "Fortalecer a comunicação e o engajamento dos alunos e da comunidade escolar na promoção de um ambiente respeitoso.",
+        "timelines": {
+            "short": [
+                {
+                    "title": "Implementação do \"Mural do Respeito\"",
+                    "responsaveis": "Estudantes do curso de ADS, Coordenação.",
+                    "recursos": "Material de papelaria.",
+                    "status": "concluido",
+                    "link": "gallery-cmt-xv.html#gallery-single"
+                },
+                {
+                    "title": "Criação de \"Caixa de Sugestões e Vozes\"",
+                    "responsaveis": "Direção, Coordenação.",
+                    "recursos": "Caixa física, papel.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "medium": [
+                {
+                    "title": "Realização de \"Rodas de Conversa\" mensais",
+                    "responsaveis": "Coordenação, Psicólogo.",
+                    "recursos": "Espaço, materiais de apoio.",
+                    "status": "nao_iniciado"
+                },
+                {
+                    "title": "Formação de um \"Grêmio Estudantil Ativo\"",
+                    "responsaveis": "Direção, Professores.",
+                    "recursos": "Apoio institucional.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "long": [
+                {
+                    "title": "Integração dos canais no planejamento pedagógico",
+                    "responsaveis": "Direção, Corpo Docente.",
+                    "recursos": "Planejamento, treinamento.",
+                    "status": "nao_iniciado"
+                }
+            ]
+        }
+    },
+    "proposal2": {
+        "title": "Desenvolvimento de Programas de Educação em Direitos Humanos e Convivência Ética",
+        "objective": "Promover uma cultura de respeito, empatia e valorização da diversidade, prevenindo o bullying e a exclusão.",
+        "timelines": {
+            "short": [
+                {
+                    "title": "Campanhas \"Bullying Não é Brincadeira\"",
+                    "responsaveis": "Equipe, Professores.",
+                    "recursos": "Cartazes, materiais digitais.",
+                    "status": "nao_iniciado"
+                },
+                {
+                    "title": "Oficinas Pontuais de Empatia",
+                    "responsaveis": "Psicólogo, Professores.",
+                    "recursos": "Dinâmicas de grupo.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "medium": [
+                {
+                    "title": "Programa de \"Padrinhos/Madrinhas\"",
+                    "responsaveis": "Coordenação, Grêmio.",
+                    "recursos": "Treinamento.",
+                    "status": "nao_iniciado"
+                },
+                {
+                    "title": "Inclusão de \"Direitos Humanos\" como tema transversal",
+                    "responsaveis": "Coordenação, Docentes.",
+                    "recursos": "Revisão curricular.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "long": [
+                {
+                    "title": "Criação de um \"Regulamento Escolar\"",
+                    "responsaveis": "Comunidade Escolar.",
+                    "recursos": "Reuniões participativas.",
+                    "status": "concluido",
+                    "link": "https://www2.fab.mil.br/serepbr/images/282-regulamento-dos-colegios-militares-eb10-r-05-173.pdf",
+                    "linkText": "Ver regulamento →"
+                }
+            ]
+        }
+    },
+    "proposal3": {
+        "title": "Engajamento da Família e Comunidade",
+        "objective": "Promover a corresponsabilidade de pais e responsáveis na educação ética e em direitos humanos dos estudantes.",
+        "timelines": {
+            "short": [
+                {
+                    "title": "Reuniões de Pais com foco em Convivência",
+                    "responsaveis": "Direção, Coordenação.",
+                    "recursos": "Convites, espaço.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "medium": [
+                {
+                    "title": "Implementação de \"Canais Digitais Informativos\"",
+                    "responsaveis": "Coordenação, Equipe.",
+                    "recursos": "Ferramenta de e-mail, sites e redes sociais.",
+                    "status": "em_processo"
+                },
+                {
+                    "title": "Workshops para Pais sobre Comunicação",
+                    "responsaveis": "Psicólogo.",
+                    "recursos": "Material didático.",
+                    "status": "nao_iniciado"
+                }
+            ],
+            "long": [
+                {
+                    "title": "Estabelecimento de um \"Conselho Comunitário\"",
+                    "responsaveis": "Direção.",
+                    "recursos": "Estrutura para reuniões.",
+                    "status": "nao_iniciado"
+                }
+            ]
+        }
+    }
+}
