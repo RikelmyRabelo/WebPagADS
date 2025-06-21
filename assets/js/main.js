@@ -227,7 +227,7 @@ function initializeStaticModules() {
             submitButton.textContent = 'Enviando...';
             formFeedback.textContent = ''; // Limpa mensagens antigas
 
-            fetch(form.action, {
+            fetch('/', {
                 method: form.method,
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
                 body: new URLSearchParams(formData).toString()
