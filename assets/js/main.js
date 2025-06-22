@@ -261,10 +261,7 @@ function initializeStaticModules() {
             submitButton.textContent = 'Enviando...';
             formFeedback.textContent = '';
 
-<<<<<<< HEAD
             // Envia os dados para o Netlify.
-=======
->>>>>>> a9533b1194869d52f470a13eb70688f56f8982f3
             fetch('/', {
                 method: form.method,
                 headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
