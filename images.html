@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,98 +11,123 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="bg-gray-50 text-gray-800">
 
-<header class="bg-white shadow-md sticky top-0 z-50">
-    <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
-        <a href="/" class="flex flex-col sm:flex-row sm:items-center space-x-0 sm:space-x-4">
-            <div class="flex items-center space-x-2">
-                <img src="assets/Images/logoMilitar.jpg" alt="Logo do Colégio Militar Tiradentes" class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
-                <img src="assets/Images/logoUema.jpg" alt="Logo da UEMA e UemaNet" class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
-            </div>
-            <div class="mt-2 sm:mt-0">
-                <h1 class="text-base sm:text-2xl font-bold text-teal-700 text-center sm:text-left">
-                    Projeto CMT XV - UEMA
-                </h1>
-            </div>
-        </a>
-        <div class="flex items-center space-x-4">
-            <div class="hidden md:flex space-x-8">
-                <a href="/#overview" class="text-gray-600 hover:text-teal-600">Visão Geral</a>
-                <a href="/#diagnosis" class="text-gray-600 hover:text-teal-600">Diagnóstico</a>
-                <a href="/#action-plan" class="text-gray-600 hover:text-teal-600">Plano de Ação</a>
-                <a href="/#impact" class="text-gray-600 hover:text-teal-600">Impacto Esperado</a>
-                <a href="/images.html" class="nav-active">Projetos</a>
-                <a href="/#contact-form" class="text-gray-600 hover:text-teal-600">Contato</a>
-            </div>
-            <div class="md:hidden">
-                <button id="mobile-menu-button" class="text-gray-600 hover:text-teal-600 focus:outline-none">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                </button>
-            </div>
-        </div>
-    </nav>
-    <div id="mobile-menu" class="hidden md:hidden bg-white">
-        <a href="/#overview" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Visão Geral</a>
-        <a href="/#diagnosis" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Diagnóstico</a>
-        <a href="/#action-plan" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Plano de Ação</a>
-        <a href="/#impact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Impacto Esperado</a>
-        <a href="/images.html" class="block py-2 px-4 text-sm bg-teal-50 text-teal-700">Projetos</a>
-        <a href="/#contact-form" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Contato</a>
-    </div>
-</header>
-
-<main>
-    <section id="gallery" class="py-12 md:py-20">
-        <div class="container mx-auto px-4 md:px-6">
-            <div class="text-center mb-10 md:mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Nossos Projetos</h2>
-                <p class="text-base md:text-lg text-gray-600 mt-3 max-w-2xl mx-auto">Explore os projetos desenvolvidos e planejados para a comunidade escolar.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <a href="/gallery-cmt-xv.html" class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                    <div class="overflow-hidden">
-                        <img src="assets/Images/foto2.jpg" alt="Mural do Respeito" class="w-full h-48 object-contain group-hover:scale-110 transition-transform duration-300" loading="lazy" width="1080" height="720">
-                    </div>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold text-teal-800 text-center">Mural do Respeito</h3>
-                        <p class="text-gray-600 mt-2 text-sm">Um espaço para promover a ética, a empatia e os direitos humanos, dando voz à comunidade escolar. <span class="text-teal-600 font-semibold">Clique para ver a galeria.</span></p>
-                    </div>
-                </a>
-                <a href="/#action-plan" class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                    <div class="w-full h-48 bg-teal-50 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-teal-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-3 flex justify-between items-center">
+            <a href="/" class="flex flex-col sm:flex-row sm:items-center space-x-0 sm:space-x-4">
+                <div class="flex items-center space-x-2">
+                    <img src="assets/Images/logoMilitar.jpg" alt="Logo do Colégio Militar Tiradentes"
+                        class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
+                    <img src="assets/Images/logouema.png" alt="Logo da UEMA e UemaNet"
+                        class="h-12 w-12 rounded-full object-cover sm:h-20 sm:w-20">
+                </div>
+                <div class="mt-2 sm:mt-0">
+                    <h1 class="text-base sm:text-2xl font-bold text-teal-700 text-center sm:text-left">
+                        Projeto CMT XV - UEMA
+                    </h1>
+                </div>
+            </a>
+            <div class="flex items-center space-x-4">
+                <div class="hidden md:flex space-x-8">
+                    <a href="/#overview" class="text-gray-600 hover:text-teal-600">Visão Geral</a>
+                    <a href="/#diagnosis" class="text-gray-600 hover:text-teal-600">Diagnóstico</a>
+                    <a href="/#action-plan" class="text-gray-600 hover:text-teal-600">Plano de Ação</a>
+                    <a href="/#impact" class="text-gray-600 hover:text-teal-600">Impacto Esperado</a>
+                    <a href="/images.html" class="nav-active">Projetos</a>
+                    <a href="/#contact-form" class="text-gray-600 hover:text-teal-600">Contato</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-gray-600 hover:text-teal-600 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16m-7 6h7"></path>
                         </svg>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold text-teal-800 text-center">Projetos Futuros</h3>
-                        <p class="text-gray-600 mt-2 text-sm">Conheça as próximas ações do nosso plano. <span class="text-teal-600 font-semibold">Clique para saber mais.</span></p>
-                    </div>
-                </a>
-                <a href="/#action-plan" class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
-                    <div class="w-full h-48 bg-sky-50 flex items-center justify-center">
-                        <svg class="w-16 h-16 text-sky-300" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                    </div>
-                    <div class="p-5">
-                        <h3 class="text-xl font-bold text-teal-800 text-center">Engajamento Familiar</h3>
-                        <p class="text-gray-600 mt-2 text-sm">Veja as propostas para incluir as famílias na comunidade escolar. <span class="text-teal-600 font-semibold">Clique para ver os planos.</span></p>
-                    </div>
-                </a>
+                    </button>
+                </div>
             </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden bg-white">
+            <a href="/#overview" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Visão Geral</a>
+            <a href="/#diagnosis" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Diagnóstico</a>
+            <a href="/#action-plan" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Plano de Ação</a>
+            <a href="/#impact" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Impacto Esperado</a>
+            <a href="/images.html" class="block py-2 px-4 text-sm bg-teal-50 text-teal-700">Projetos</a>
+            <a href="/#contact-form" class="block py-2 px-4 text-sm text-gray-600 hover:bg-teal-50">Contato</a>
         </div>
-    </section>
-</main>
+    </header>
 
-<footer class="bg-gray-800 text-white py-6 md:py-8 border-t border-gray-700">
-    <div class="container mx-auto px-4 md:px-6 text-center">
-        <p class="text-sm md:text-base">© 2025 - Grupo de Análise e Desenvolvimento de Sistemas. Todos os direitos reservados.</p>
-        <p class="text-xs md:text-sm text-gray-400 mt-1 md:mt-2">Guilherme Moreira Santos, José Ribamar Andrade Santos Júnior, Marina de Jesus Lima Muniz e Rikelmy Rabelo Freitas.</p>
-    </div>
-</footer>
+    <main>
+        <section id="gallery" class="py-12 md:py-20">
+            <div class="container mx-auto px-4 md:px-6">
+                <div class="text-center mb-10 md:mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800">Nossos Projetos</h2>
+                    <p class="text-base md:text-lg text-gray-600 mt-3 max-w-2xl mx-auto">Explore os projetos
+                        desenvolvidos e planejados para a comunidade escolar.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <a href="/gallery-cmt-xv.html"
+                        class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="overflow-hidden">
+                            <img src="assets/Images/foto2.jpg" alt="Mural do Respeito"
+                                class="w-full h-48 object-contain group-hover:scale-110 transition-transform duration-300"
+                                loading="lazy" width="1080" height="720">
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold text-teal-800 text-center">Mural do Respeito</h3>
+                            <p class="text-gray-600 mt-2 text-sm">Um espaço para promover a ética, a empatia e os
+                                direitos humanos, dando voz à comunidade escolar. <span
+                                    class="text-teal-600 font-semibold">Clique para ver a galeria.</span></p>
+                        </div>
+                    </a>
+                    <a href="/#action-plan"
+                        class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-full h-48 bg-teal-50 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-teal-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold text-teal-800 text-center">Projetos Futuros</h3>
+                            <p class="text-gray-600 mt-2 text-sm">Conheça as próximas ações do nosso plano. <span
+                                    class="text-teal-600 font-semibold">Clique para saber mais.</span></p>
+                        </div>
+                    </a>
+                    <a href="/#action-plan"
+                        class="group block bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="w-full h-48 bg-sky-50 flex items-center justify-center">
+                            <svg class="w-16 h-16 text-sky-300" xmlns="http://www.w3.org/2000/svg" fill="none"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            </svg>
+                        </div>
+                        <div class="p-5">
+                            <h3 class="text-xl font-bold text-teal-800 text-center">Engajamento Familiar</h3>
+                            <p class="text-gray-600 mt-2 text-sm">Veja as propostas para incluir as famílias na
+                                comunidade escolar. <span class="text-teal-600 font-semibold">Clique para ver os
+                                    planos.</span></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<script src="assets/js/gallery.js"></script> 
+    <footer class="bg-gray-800 text-white py-6 md:py-8 border-t border-gray-700">
+        <div class="container mx-auto px-4 md:px-6 text-center">
+            <p class="text-sm md:text-base">© 2025 - Grupo de Análise e Desenvolvimento de Sistemas. Todos os direitos
+                reservados.</p>
+            <p class="text-xs md:text-sm text-gray-400 mt-1 md:mt-2">Guilherme Moreira Santos, José Ribamar Andrade
+                Santos Júnior, Marina de Jesus Lima Muniz e Rikelmy Rabelo Freitas.</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/gallery.js" defer></script>
 </body>
+
 </html>

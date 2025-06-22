@@ -1,18 +1,11 @@
-/* Header e Navegação */
+/*efeitos e efeitos do header*/
 .header-hidden {
     transform: translateY(-100%);
 }
 
-.nav-active {
-    color: #0d9488 !important; 
-    font-weight: 600 !important;
-}
-.nav-active:hover {
-    color: #0d9488 !important; 
-}
 
-
-/* css do plano de ação */
+/* efeitos da parte de plano de ação */
+/*código pra fuuncionar bem em todas as telas*/
 .chart-container {
     position: relative;
     width: 100%;
@@ -22,32 +15,36 @@
     height: 250px;
 }
 
+/* muda o tamanho do gráfico de acordo com a tela */
 @media (min-width: 768px) {
     .chart-container {
         height: 350px;
     }
 }
 
+/* estilo do botão de prazo quando ele está ativo */
 .timeline-tab-active {
     background-color: #0d9488;
     color: white;
 }
 
-/* css p abas de status */
+/* estilo do botão de filtro de status  quando está ativo */
 .status-tab-active {
-    background-color: #0d9488; 
-    color: #ffffff;             
+    background-color: #0d9488;
+    color: #ffffff;
     font-weight: 600;
 }
 
-/* Estilos para a animação de fade-in */
+
+/* animações */
 .fade-in-section {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
+/* ativa as animações com o js */
 .fade-in-section.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
