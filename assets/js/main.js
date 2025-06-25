@@ -97,7 +97,7 @@ const ActionPlan = {
         // Onde temta carregar os dados do JSON.
         fetch(dataSource)
             .then(response => {
-                // Se a resposta não for 'ok' (ex: erro 404), a gente lança um erro
+                // Se a resposta não for ok, a gente lança um erro
                 if (!response.ok) throw new Error(`Erro na rede: ${response.statusText}`);
                 // Se estiver tudo certo, a gente converte a resposta para JSON
                 return response.json();
